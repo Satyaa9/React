@@ -1,9 +1,11 @@
-import profile  from "./profile";
+import Profile from './profile.jsx'
 function Demo(){
+    return (
     <div>
-        <profile/>
-        <profile/>
-
+        <Profile/>
+        <Profile/>
     </div>
+    )
 }
+
 export default Demo;
