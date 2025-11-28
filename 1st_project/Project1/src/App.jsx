@@ -28,7 +28,7 @@ function App() {
       
      
       <div>
-        <LogoLoop/>
+        {/* <LogoLoop/> */}
         {/* <Profile/> */}
         <GooeyNav items={items} />
       </div>
