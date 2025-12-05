@@ -7,9 +7,11 @@ function Profile() {
     console.log("in profile");
     
     const {count} = useContext(UserContext);
+   
   return (
     <div style={{border:"2px solid black" , padding:"10px"}}>
-      <h1>Profile{count}</h1>
+      <h1>Profile {count}</h1>
+     
       <User/>
     </div>
   )
